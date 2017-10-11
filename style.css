@@ -1,0 +1,58 @@
+html {
+  font-family: Helvetica, sans-serif;
+  background: #444444;
+  color: white;
+}
+
+body {
+  border: 4px solid grey;
+  padding: 30px;
+  margin: 20px;
+  min-width: 440px;
+}
+
+h1, p {
+  font-family: "Times New Roman", serif
+}
+
+h1 {
+  font-style: italic;
+}
+
+header {
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+main {
+  min-height: 380px;
+}
+
+footer {
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  text-align: center;
+}
+
+a, h2 {
+  font-weight: bold;
+}
+
+a {
+  padding: 20px 0;
+  color: #61B48C
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  float: right;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 10px;
+
+}
