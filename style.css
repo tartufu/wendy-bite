@@ -1,0 +1,60 @@
+body {
+	background-color: #484848;
+	color: white;
+	padding: 20px;
+	font-size: 18px;
+}
+
+/* HEADER SECTION */
+
+header {
+	text-align: center;
+}
+
+a {
+	color: #98ff98;
+	font-weight: bold;
+	text-decoration: none;
+} /* This changes all link colors to green and bolds it. Text-decoration: none to remove all underlines for <a> links */
+
+.active {
+	color: white;
+} /* this changes the about me link to white color */
+
+a:active {
+  color: blue;
+} /* for additional reference, <a> link will turn blue if you click on it due to :active pseudo class ; */
+
+.border {
+	border: 5px solid white;
+	width: 800px;
+	margin: 0 auto;
+} /* width 800px because its the width of a book page, margin 0 auto to center in on screen*/
+
+/* END OF HEADER SECTION */
+
+/* ABOUT ME SECTION */
+
+main {
+	padding: 20px;
+}
+
+main img {
+	float: right;
+	padding: 10px;
+} /* gave img additional padding float right floats to the top right corner which is .border in this case. */
+
+main p {
+	line-height: 1.8;
+} /* adjusted line height from default 1.4 to 1.8 so that the text is easier to read. */
+
+main hr {
+	border: 1px solid white;
+} /* HR in html adds a line  */
+
+/* END OF ABOUT ME SECTION */
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+} /* give padding bottom 20px only as otherwise it will be unevenly padded.
