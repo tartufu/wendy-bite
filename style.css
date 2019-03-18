@@ -1,5 +1,5 @@
 body {
-	background-color: #484848;
+	background-color: #444444;
 	color: white;
 	padding: 20px;
 	font-size: 18px;
@@ -12,7 +12,7 @@ header {
 }
 
 a {
-	color: #98ff98;
+	color: #449E85;
 	font-weight: bold;
 	text-decoration: none;
 } /* This changes all link colors to green and bolds it. Text-decoration: none to remove all underlines for <a> links */
